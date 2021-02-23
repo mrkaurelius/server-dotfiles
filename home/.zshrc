@@ -18,5 +18,8 @@ export PATH=$HOME/.local/bin:$PATH
 
 alias duls='du -sh * | sort -hr'
 alias free='free -hm'
+alias ip='ip -c'
 
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
