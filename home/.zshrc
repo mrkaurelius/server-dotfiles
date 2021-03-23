@@ -26,7 +26,6 @@ alias ip="ip -c"
 alias dfe="df -hTt ext4"
 alias aptcs="apt-cache pkgnames | fzf | xargs apt show"
 
-
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
